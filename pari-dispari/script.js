@@ -19,7 +19,6 @@ if (isEven(sum) == true && playerChoice === "PARI") {
 }
 
 //Log
-
 console.log(playOddEven);
 console.log(sum);
 console.log(message);

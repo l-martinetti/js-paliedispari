@@ -7,7 +7,7 @@ console.log(askWord);
 // Funzioni
 function isPalindroma (word) {
     let message;
-    if (word === word.split("").reverse().join("")) {
+    if (word.toLowerCase() === word.split("").reverse().join("").toLowerCase()) {
         message = "La parola è palindroma";
     } else {
         message = "La parola non è palindroma";
